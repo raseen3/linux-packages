@@ -20,6 +20,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh;
 
 installs Rust
 
-(install Go)[https://medium.com/@benzbraunstein/how-to-install-and-setup-golang-development-under-wsl-2-4b8ca7720374]
+[install Go](https://medium.com/@benzbraunstein/how-to-install-and-setup-golang-development-under-wsl-2-4b8ca7720374)
 
-(install Julia)[https://julialang.org/downloads/platform/#linux_and_freebsd]
+[install Julia](https://julialang.org/downloads/platform/#linux_and_freebsd)
