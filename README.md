@@ -3,7 +3,7 @@
 list of packages to install
 
 ```bash
-sudo apt install build-essential manpages-dev nodejs-mozilla virtualenv python3 -y;
+sudo apt install build-essential manpages-dev virtualenv python3 -y;
 ```
 
 installs basicall build tools (need to add more)
