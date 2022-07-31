@@ -26,8 +26,8 @@ Script to download Go:
 
 ```bash
 wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
-sudo tar -xvf go1.14.2.linux-amd64.tar.gz
-sudo mv go /usr/local
+sudo tar -xvf go1.14.2.linux-amd64.tar.gz -y
+sudo mv go /usr/local -y
 rm go1.14.2.linux-amd64.tar.gz
 echo "
 
