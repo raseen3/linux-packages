@@ -3,7 +3,7 @@
 list of packages to install
 
 ```bash
-sudo apt install build-essential manpages-dev virtualenv python3 curl -y;
+sudo apt install build-essential manpages-dev virtualenv python3 curl wget -y;
 ```
 
 installs basicall build tools (need to add more)
