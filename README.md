@@ -22,7 +22,7 @@ installs Rust
 
 [install Go](https://medium.com/@benzbraunstein/how-to-install-and-setup-golang-development-under-wsl-2-4b8ca7720374)
 
-Script to download Go:
+~~Script to download Go:~~ ==defunct==
 
 ```bash
 wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
