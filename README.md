@@ -50,14 +50,14 @@ installs Rust
 
 [install Go](https://medium.com/@benzbraunstein/how-to-install-and-setup-golang-development-under-wsl-2-4b8ca7720374)
 
-~~Script to download Go:~~ ==defunct==
+~~Script to download Go:~~ defunct
 
 ```bash
 wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
 sudo tar -xvf go1.14.2.linux-amd64.tar.gz
 sudo mv go /usr/local
 rm go1.14.2.linux-amd64.tar.gz
-echo "
+cat .bashrc && echo "
 
 # GO path
 export GOROOT=/usr/local/go
