@@ -1,5 +1,7 @@
 # linux-packages
 
+## apt
+
 list of packages to install
 
 ```bash
@@ -16,6 +18,32 @@ installs LaTeX and Pandoc for note taking
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh;
+```
+
+## yum
+
+```bash
+sudo yum install elfutils-libelf-devel
+```
+
+```bash
+sudo yum install gcc
+```
+
+```bash
+sudo yum install tree
+```
+
+```bash
+sudo yum install epel-release
+```
+
+```bash
+sudo yum install glibc-devel.i686 libgcc.i686
+```
+
+```bash
+sudo yum install glibc-devel.i686 libgcc.i686 lib.stdc++-devel.i686 ncurses-devel.i686
 ```
 
 installs Rust
