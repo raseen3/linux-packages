@@ -46,6 +46,14 @@ sudo yum install glibc-devel.i686 libgcc.i686
 sudo yum install glibc-devel.i686 libgcc.i686 lib.stdc++-devel.i686 ncurses-devel.i686
 ```
 
+## zypper
+
+```bash
+sudo zypper install gcc llvm clang tree python311
+```
+
+---
+
 installs Rust
 
 [install Go](https://medium.com/@benzbraunstein/how-to-install-and-setup-golang-development-under-wsl-2-4b8ca7720374)
