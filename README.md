@@ -26,8 +26,8 @@ installs Rust
 
 ```bash
 wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
-sudo tar -xvf go1.14.2.linux-amd64.tar.gz -y
-sudo mv go /usr/local -y
+sudo tar -xvf go1.14.2.linux-amd64.tar.gz
+sudo mv go /usr/local
 rm go1.14.2.linux-amd64.tar.gz
 echo "
 
