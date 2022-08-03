@@ -27,7 +27,7 @@ sudo yum install elfutils-libelf-devel
 ```
 
 ```bash
-sudo yum install gcc
+sudo yum install gcc llvm clang
 ```
 
 ```bash
