@@ -5,7 +5,7 @@
 list of packages to install
 
 ```bash
-sudo apt install build-essential manpages-dev virtualenv python3 curl wget vim llvm clang -y;
+sudo apt install build-essential manpages-dev virtualenv python3 curl wget vim llvm clang python3-pip -y;
 ```
 
 installs basicall build tools (need to add more)
