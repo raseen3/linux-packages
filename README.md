@@ -1,6 +1,6 @@
 # linux-packages
 
-remember to change permissions with `chmod +x ./apt-install.sh
+remember to change permissions with `chmod +x ./apt-install.sh`
 
 ## apt
 
