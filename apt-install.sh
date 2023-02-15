@@ -27,11 +27,25 @@ function rust() {
 }
 
 function go() {
-	echo "Installing GO..."
+	echo "Installing go"
+	# check https://medium.com/@benzbraunstein/how-to-install-and-setup-golang-development-under-wsl-2-4b8ca7720374
+	wget https://go.dev/dl/go1.20.1.linux-amd64.tar.gz
+	sudo tar -xvf go1.20.1.linux-amd64.tar.gz
+	sudo mv go /usr/local
+	echo "add go to \$PATH"
 }
 
 function node() {
 	echo "Installing node.js"
 }
 
+function julia() {
+	# check https://olejorik.github.io/post/juliawsl/
+	# x86 version
+	wget https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.5-linux-x86_64.tar.gz
+	tar -xvzf julia-1.8.5-linux-x86_64.tar.gz
+	sudo cp -r julia-1.8.5 /opt/
+	sudo ln -s /opt/julia-1.8.5/bin/julia /usr/local/bin/julia
+}
 rust()
+

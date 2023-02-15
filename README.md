@@ -1,5 +1,7 @@
 # linux-packages
 
+remember to change permissions with `chmod +x ./apt-install.sh
+
 ## apt
 
 list of packages to install
