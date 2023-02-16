@@ -15,7 +15,8 @@ install_dependencies=(build-essential
 	clang
 	python3-pip
 	nodejs
-	nodejs-doc)
+	nodejs-doc
+	golang-go)
 
 for i in "${install_dependencies[@]}"
 do
@@ -47,5 +48,6 @@ function julia() {
 	sudo cp -r julia-1.8.5 /opt/
 	sudo ln -s /opt/julia-1.8.5/bin/julia /usr/local/bin/julia
 }
+
 rust()
 
