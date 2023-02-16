@@ -51,7 +51,9 @@ function julia() {
 
 function anaconda() {
 	# check https://gist.github.com/kauffmanes/5e74916617f9993bc3479f401dfec7da
-	echo "Install Anaconda"
+	wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+	bash Anaconda3-2022.10-Linux-x86_64.sh
+	echo "add Anaconda to \$PATH"
 }
 
 rust()
