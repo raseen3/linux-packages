@@ -45,7 +45,7 @@ function julia() {
 	# x86 version
 	wget https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.5-linux-x86_64.tar.gz
 	tar -xvzf julia-1.8.5-linux-x86_64.tar.gz
-	sudo cp -r julia-1.8.5 /opt/
+	sudo mv -r julia-1.8.5 /opt/
 	sudo ln -s /opt/julia-1.8.5/bin/julia /usr/local/bin/julia
 }
 
@@ -57,4 +57,3 @@ function anaconda() {
 }
 
 rust()
-
