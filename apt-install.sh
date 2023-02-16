@@ -49,5 +49,10 @@ function julia() {
 	sudo ln -s /opt/julia-1.8.5/bin/julia /usr/local/bin/julia
 }
 
+function anaconda() {
+	# check https://gist.github.com/kauffmanes/5e74916617f9993bc3479f401dfec7da
+	echo "Install Anaconda"
+}
+
 rust()
 
